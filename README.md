@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="EBAC Livraria" src="/imagens/image.png" width="100%">
+  <img alt="EBAC Livraria" src="image.png" width="100%">
 </p>
 
 ## Tecnologias
