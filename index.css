@@ -90,10 +90,6 @@ header nav ul a:hover {
   transition: 0.2s ease-in;
 }
 
-#promotion img, #other-products img {
-  height: 200px;
-  margin: 10px 0;
-}
 
 main {
   width: 100%;
@@ -118,6 +114,11 @@ main {
   text-align: justify;
 }
 
+.container img, #other-products img {
+  height: 150px;
+  margin: 10px 0;
+}
+
 #promotion, #other-products {
   width: 100%;
 }
@@ -126,16 +127,25 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .promotion-books >div, .products-box >div, .products-books >div {
   width: 100%;
-  max-width: 300px;
+  max-width: 240px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   border: 1px solid rgb(206, 206, 206);
   border-radius: 5px;
 }
@@ -165,10 +175,6 @@ footer {
     flex-direction: column;
   }
 
-  #promotion img, #other-products img {
-    height: 125px;
-  }
-
   .promotion-books >div, .products-box >div, .products-books >div {
     width: 100%;
     max-width: 180px;
@@ -184,6 +190,10 @@ footer {
     padding: 8px;
     font-size: 17px;
   }
+
+  footer {
+    font-size: 14px;
+  }
 }
 
 /* tablet-notebook */
@@ -198,4 +208,5 @@ footer {
     width: 100%;
     max-width: 100%;
   }
+
 }
