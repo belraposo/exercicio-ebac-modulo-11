@@ -132,6 +132,7 @@ main {
 .promotion-books >div, .products-box >div, .products-books >div {
   width: 100%;
   max-width: 300px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
