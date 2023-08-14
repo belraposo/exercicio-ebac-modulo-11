@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  background: #3679F2;
+  background: linear-gradient(to right, #3679F2 12%, #E66BE5 65%, #D8ED0C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #3679F2;
+  color: #fff;
+  text-align: center;
+}
+
+section >h2 {
+  margin: 50px 0 25px 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+.last-price {
+  font-size: 14px;
+  color: rgb(139, 139, 139);
+  text-decoration: line-through;
+}
+
+.capa {
+  font-size: 13px;
+}
+
+button {
+  width: 100%;
+  max-width: 125px;
+  margin: 15px 0;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #3679F2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #E66BE5;
+  color: #fff;
+  transition: 0.2s ease-in;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  border-top: 5px solid #E66BE5;
+  border-bottom: 5px solid #D8ED0C;
+}
+
+header nav {
+  width: 100%;
+  max-width: 400px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul a:hover {
+  color:#E66BE5;
+  transition: 0.2s ease-in;
+}
+
+#promotion img, #other-products img {
+  height: 200px;
+  margin: 10px 0;
+}
+
+main {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.sobre {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+
+.sobre img {
+  width: 100%;
+  max-width: 500px;
+  margin-right: 10px;
+}
+
+.sobre div p {
+  margin: 0 10px;
+  text-align: justify;
+}
+
+#promotion, #other-products {
+  width: 100%;
+}
+
+.promotion-books, .products-box, .products-books {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.promotion-books >div, .products-box >div, .products-books >div {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 56px;
+  padding: 20px;
+  background-color: #000000;
+  border-top: 5px solid #E66BE5;
+  border-bottom: 5px solid #D8ED0C;
+  color: #fff;
+}
+
+/* celular */
+@media screen and (max-width: 767px) { 
+  header {
+    padding: 8px;
+    flex-direction: column;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .sobre {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  #promotion img, #other-products img {
+    height: 125px;
+  }
+
+  .promotion-books >div, .products-box >div, .products-books >div {
+    width: 100%;
+    max-width: 180px;
+    padding: 5px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  button {
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 17px;
+  }
+}
+
+/* tablet-notebook */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sobre {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .sobre img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
