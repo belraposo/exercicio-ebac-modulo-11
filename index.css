@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  margin: 15px 0;
+  margin-bottom: 25px;
   padding: 10px;
   background-color: #3679F2;
   color: #fff;
@@ -99,7 +99,6 @@ main {
 
 .sobre {
   width: 100%;
-  padding: 10px;
   display: flex;
 }
 
@@ -114,7 +113,7 @@ main {
   text-align: justify;
 }
 
-.container img, #other-products img {
+.container img {
   height: 150px;
   margin: 10px 0;
 }
