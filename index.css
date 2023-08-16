@@ -176,7 +176,6 @@ footer {
 
   .promotion-books >div, .products-box >div, .products-books >div {
     width: 100%;
-    max-width: 180px;
     padding: 5px;
   }
 
@@ -208,4 +207,7 @@ footer {
     max-width: 100%;
   }
 
+  .promotion-books >div, .products-box >div, .products-books >div {
+    max-width: 300px;
+  }
 }
